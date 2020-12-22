@@ -5,7 +5,7 @@ The deployment of the MABS Worker is performed by a pipeline from AWS CodePipeli
  - [MABS Adroid Worker QA-PRD](#mabs-android-worker--release-to-quality-assurance-and-production-environments) 
  - [MABS iOS Worker Dev](#mabs-ios-worker--deployment-to-the-development-environment)
  - [MABS iOS Worker Qa](#mabs-ios-worker--release-to-quality-assurance)
- - [MABS iOS Worker Prd](#mabs-ios-worker--release-to-production).
+ - [MABS iOS Worker Prd](#mabs-ios-worker--release-to-production)
 
 ## Development Environment
 
@@ -59,7 +59,7 @@ To release a new version of the MABS Android Worker, you will have to execute th
 
 **Note:** The Source Stage may take a little longer to start running. You can refresh your browser until the pipeline is running.        
 
-### MABS iOS Worker Release to Production 
+### MABS iOS Worker ::: Release to Production 
 
 To deploy the new version of the MABS iOS Worker in the Production Environment, you will have to execute the following steps:
 
@@ -68,5 +68,3 @@ To deploy the new version of the MABS iOS Worker in the Production Environment, 
 3. Go to the CodePipeline service, select the `mabs-ios-worker-v2-pipeline-prd` pipeline and wait for its completion.
 
 **Note:** The Source Stage may take a little longer to start running. You can refresh your browser until the pipeline is running.    
-
-# This is the end
